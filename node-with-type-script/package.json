@@ -1,0 +1,21 @@
+{
+  "name": "node-with-type-script",
+  "version": "1.0.0",
+  "description": "Node.js server with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/app.js"
+  },
+  "author": "Sara Prager",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.21",
+    "nodemon": "^2.0.7"
+  }
+}
